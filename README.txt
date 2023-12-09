@@ -10,7 +10,6 @@
 </div>
 
 <table align="center">
-    <thead align="center">
         <tr border: 1px;>
             <td><b>Project Stats</td>
             <td><b>🌟 Stars</b></td>
