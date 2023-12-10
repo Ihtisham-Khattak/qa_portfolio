@@ -1,55 +1,37 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiGit,
-} from "react-icons/di";
-import {
-  SiMaterialui,
-  SiGraphql,
-  SiSolidity,
-  SiRedux,
-  SiMongodb,
-  SiHtml5
-} from "react-icons/si";
+import { DiJavascript1, DiGit } from "react-icons/di";
+import { SiJenkins, SiDocker, SiAnsible, SiCypress } from "react-icons/si";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <DiJavascript1 /> <p className="teach-paragh">Javascript</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiGit /> <p className="teach-paragh">Git</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiJenkins /> <p className="teach-paragh">Jenkins</p>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker /> <p className="teach-paragh">Docker</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiAnsible /> <p className="teach-paragh">Ansible</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
+        <SiCypress /> <p className="teach-paragh">Cypress</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
+      <Col xs={4} md={2} className="tech-icons"></Col>
+      <Col xs={4} md={2} className="tech-icons"></Col>
+      <Col xs={4} md={2} className="tech-icons"></Col>
+      <Col xs={4} md={2} className="tech-icons"></Col>
+      <Col xs={4} md={2} className="tech-icons"></Col>
     </Row>
   );
-}
+};
 
 export default Techstack;
