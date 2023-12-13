@@ -1,7 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJavascript1, DiGit } from "react-icons/di";
-import { SiJenkins, SiDocker, SiAnsible, SiCypress } from "react-icons/si";
+import {
+  SiJenkins,
+  SiDocker,
+  SiAnsible,
+  SiCypress,
+  SiLinux,
+  SiSpeedtest,
+  SiServerless,
+} from "react-icons/si";
 
 const Techstack = () => {
   return (
@@ -23,13 +31,19 @@ const Techstack = () => {
         <SiAnsible /> <p className="teach-paragh">Ansible</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiLinux /> <p className="teach-paragh"> Linux</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiServerless /> <p className="teach-paragh">Server</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpeedtest /> <p className="teach-paragh">Stress Testing</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiCypress /> <p className="teach-paragh">Cypress</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons"></Col>
-      <Col xs={4} md={2} className="tech-icons"></Col>
-      <Col xs={4} md={2} className="tech-icons"></Col>
-      <Col xs={4} md={2} className="tech-icons"></Col>
-      <Col xs={4} md={2} className="tech-icons"></Col>
+
+     
     </Row>
   );
 };
